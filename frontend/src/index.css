@@ -5,9 +5,9 @@
 body {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/file.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100vh;
     background-position: center;
-    background-attachment: fixed; /* Fix the background image in place */
+    /* background-attachment: fixed; Fix the background image in place */
     min-height: 100vh; /* Ensure the body takes at least the full viewport height */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
