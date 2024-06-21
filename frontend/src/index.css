@@ -4,9 +4,13 @@
 
 body {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/file.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow: hidden; /* Optional: Prevent overflow */
 }
 
 /* dark mode looking scrollbar */
